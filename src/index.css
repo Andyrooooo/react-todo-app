@@ -1,0 +1,132 @@
+body {
+  background: rgb(29, 29, 29);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(122, 133, 255);
+}
+
+.content-container ul {
+  list-style-type: none;
+  padding-left: 0;
+  border-bottom: 2px solid rgb(61, 61, 61);
+}
+
+div.todo {
+  display: flex;
+  background: white;
+  padding: 20px 1%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+div.todo:hover {
+  box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.658)
+}
+
+.check input {
+  width: 20px;
+  height: 20px;
+  flex-basis: 10%;
+}
+
+div.todo.completed {
+  background: rgba(122, 133, 255, 0.506);
+  text-decoration: line-through;
+}
+
+div.todo.completed:hover {
+  box-shadow: 1px 1px 5px rgb(119, 130, 255);
+}
+
+.todo-item {
+  flex-basis: 70%;
+  padding: 5px 10px;
+}
+
+.edit-delete {
+  flex-basis: 30%;
+}
+
+.edit, .delete {
+  float: right;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.edit {
+  color: rgb(200, 130, 0);
+}
+
+.edit:hover {
+  text-shadow: 1px 1px 5px rgba(150, 97, 0, 0.648);
+}
+
+.delete {
+  margin-left: 1.5rem;
+  color: red;
+}
+
+.delete:hover {
+  text-shadow: 1px 1px 5px rgba(168, 0, 0, 0.333);
+}
+
+.fa.fa-trash, .fa.fa-wrench {
+  font-size: 1.4rem;
+
+}
+
+.new-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 5px;
+  outline: none;
+}
+
+.new-input:hover {
+  box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.658)
+}
+
+.add-button {
+  width: 20%;
+  margin: .5rem 40%;
+  padding: 20px 5px;
+  border-radius: 10px;
+  background: rgb(122, 133, 255);
+  border: none;
+}
+
+.add-button:hover {
+  background: rgb(89, 103, 255);
+  color: white;
+  box-shadow: 1px 1px 5px rgb(40, 57, 255);
+}
+
+.fa.fa-plus {
+  font-size: 1.2rem;
+}
+
+
+.update-input {
+  width: 79%;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  padding: 20px 5px;
+  outline: none;
+}
+
+.edit-button {
+  width: 20%;
+  margin-left: 1%;
+  padding: 20px 5px;
+  border-radius: 10px;
+  background: rgb(122, 133, 255);
+  border: none;
+}
+
+.edit-button:hover {
+  background: rgb(89, 103, 255);
+  color: white;
+  box-shadow: 1px 1px 5px rgb(40, 57, 255);
+}

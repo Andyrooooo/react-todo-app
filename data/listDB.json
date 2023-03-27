@@ -1,0 +1,14 @@
+{
+    "blogs": [
+      {
+        "name": "Do homework",
+        "complete": false,
+        "id": 1
+      },
+      {
+        "name": "Go to class",
+        "complete": false,
+        "id": 2
+      }
+    ]
+  }
